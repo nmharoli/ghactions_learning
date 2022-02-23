@@ -1,11 +1,6 @@
 name: learn-github-actions
 on: ["push"]
 jobs:
-  prepare:
-    runs-on: ubuntu-latest
-    steps:
-      - name: yarn setup
-        uses: DerYeger/yarn-setup-action@master
   test:
     runs-on: ubuntu-latest
     needs: prepare
