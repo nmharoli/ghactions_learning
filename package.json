@@ -1,0 +1,19 @@
+{
+  "name": "ghactions_learning",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/nmharoli/ghactions_learning.git",
+  "author": "nmh <marchenrynanguy@arolitec.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.17.5",
+    "@babel/preset-env": "^7.16.11",
+    "@babel/preset-typescript": "^7.16.7",
+    "@types/jest": "^27.4.1",
+    "babel-jest": "^27.5.1",
+    "jest": "^27.5.1"
+  }
+}
